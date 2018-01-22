@@ -144,6 +144,8 @@
 
 -(void)loadSearchData{
     
+    
+    return;
     NSString *SURL = [NSString stringWithFormat:@"%@/select/types?pageInvertedIndex=0&pageSize=10&repeatSubmit=56658802&&signature=EFB7A9FA4FBDE75EAEC04F37239D0B48",kMainUrl];
     
     [NetWorkManager requestWithType:HttpRequestTypeGet withUrlString:SURL withParaments:nil withSuccessBlock:^(NSDictionary *responseObject) {
