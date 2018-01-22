@@ -1,0 +1,209 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AVOSCloud (4.4.0)
+  - AVOSCloudCrashReporting (4.4.0):
+    - AVOSCloud (= 4.4.0)
+    - AVOSCloudCrashReporting/_ARC (= 4.4.0)
+    - AVOSCloudCrashReporting/_NOARC (= 4.4.0)
+  - AVOSCloudCrashReporting/_ARC (4.4.0):
+    - AVOSCloud (= 4.4.0)
+    - AVOSCloudCrashReporting/_NOARC (= 4.4.0)
+  - AVOSCloudCrashReporting/_NOARC (4.4.0):
+    - AVOSCloud (= 4.4.0)
+  - DACircularProgress (2.3.1)
+  - HcdCachePlayer (1.0.0):
+    - Masonry (~> 1.0.1)
+  - IDMPhotoBrowser (1.11.1):
+    - DACircularProgress
+    - pop
+    - SDWebImage (= 4.0.0)
+  - IQKeyboardManager (5.0.7)
+  - Masonry (1.0.2)
+  - MJRefresh (3.1.12)
+  - pop (1.0.9)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - Shimmer (1.0.2)
+  - TZImagePickerController (1.7.9)
+  - UMengAnalytics (4.2.4)
+  - UMengUShare (6.4.8):
+    - UMengUShare/Core (= 6.4.8)
+    - UMengUShare/Network (= 6.4.8)
+    - UMengUShare/Plugin (= 6.4.8)
+    - UMengUShare/Social (= 6.4.8)
+    - UMengUShare/UI (= 6.4.8)
+  - UMengUShare/Core (6.4.8):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.4.8)
+  - UMengUShare/Plugin (6.4.8):
+    - UMengUShare/Core
+    - UMengUShare/Plugin/IDFA (= 6.4.8)
+  - UMengUShare/Plugin/IDFA (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social (6.4.8):
+    - UMengUShare/Core
+    - UMengUShare/Social/AlipayShare (= 6.4.8)
+    - UMengUShare/Social/DingDing (= 6.4.8)
+    - UMengUShare/Social/Douban (= 6.4.8)
+    - UMengUShare/Social/DropBox (= 6.4.8)
+    - UMengUShare/Social/Email (= 6.4.8)
+    - UMengUShare/Social/EverNote (= 6.4.8)
+    - UMengUShare/Social/Facebook (= 6.4.8)
+    - UMengUShare/Social/FaceBookMessenger (= 6.4.8)
+    - UMengUShare/Social/Flickr (= 6.4.8)
+    - UMengUShare/Social/GooglePlus (= 6.4.8)
+    - UMengUShare/Social/Instagram (= 6.4.8)
+    - UMengUShare/Social/Kakao (= 6.4.8)
+    - UMengUShare/Social/LaiWang (= 6.4.8)
+    - UMengUShare/Social/Line (= 6.4.8)
+    - UMengUShare/Social/Linkedin (= 6.4.8)
+    - UMengUShare/Social/Pinterest (= 6.4.8)
+    - UMengUShare/Social/Pocket (= 6.4.8)
+    - UMengUShare/Social/QQ (= 6.4.8)
+    - UMengUShare/Social/ReducedQQ (= 6.4.8)
+    - UMengUShare/Social/ReducedSina (= 6.4.8)
+    - UMengUShare/Social/ReducedWeChat (= 6.4.8)
+    - UMengUShare/Social/Renren (= 6.4.8)
+    - UMengUShare/Social/Sina (= 6.4.8)
+    - UMengUShare/Social/SMS (= 6.4.8)
+    - UMengUShare/Social/TencentWeibo (= 6.4.8)
+    - UMengUShare/Social/Tumblr (= 6.4.8)
+    - UMengUShare/Social/Twitter (= 6.4.8)
+    - UMengUShare/Social/VKontakte (= 6.4.8)
+    - UMengUShare/Social/WeChat (= 6.4.8)
+    - UMengUShare/Social/WhatsApp (= 6.4.8)
+    - UMengUShare/Social/YiXin (= 6.4.8)
+    - UMengUShare/Social/YouDao (= 6.4.8)
+  - UMengUShare/Social/AlipayShare (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/DingDing (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/Douban (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/DropBox (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/Email (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/EverNote (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/Facebook (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/FaceBookMessenger (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/Flickr (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/GooglePlus (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/Instagram (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/Kakao (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/LaiWang (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/Line (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/Linkedin (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/Pinterest (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/Pocket (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/QQ (6.4.8):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedQQ
+  - UMengUShare/Social/ReducedQQ (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedSina (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedWeChat (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/Renren (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/Sina (6.4.8):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedSina
+  - UMengUShare/Social/SMS (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/TencentWeibo (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/Tumblr (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/Twitter (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/VKontakte (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/WeChat (6.4.8):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedWeChat
+  - UMengUShare/Social/WhatsApp (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/YiXin (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/YouDao (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/UI (6.4.8):
+    - UMengUShare/Core
+  - VTMagic (1.2.4):
+    - VTMagic/Core (= 1.2.4)
+  - VTMagic/Core (1.2.4)
+  - WSProgressHUD (1.1.2):
+    - Shimmer
+  - YYCache (1.0.4)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - AVOSCloud
+  - AVOSCloudCrashReporting
+  - DACircularProgress
+  - HcdCachePlayer
+  - IDMPhotoBrowser
+  - IQKeyboardManager
+  - Masonry
+  - MJRefresh
+  - pop
+  - SDWebImage
+  - TZImagePickerController
+  - UMengAnalytics
+  - UMengUShare
+  - VTMagic
+  - WSProgressHUD
+  - YYCache (~> 1.0.4)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AVOSCloud: c2cbba727f10776c995108d7e8fd3142d703ebaa
+  AVOSCloudCrashReporting: 40167db5dede2f103e3232154ac8b83f40629bb0
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  HcdCachePlayer: 52497ecbf7c98b28f8222c48e999dabb4976f56e
+  IDMPhotoBrowser: 14505b91019a96e36479606cb582f864446dae01
+  IQKeyboardManager: 0bfa4607d39924116b5c0c8b55b5d789288b5cba
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+  TZImagePickerController: 0a8ff228d287ebdd7d485e8c42a2a932894f1fba
+  UMengAnalytics: ef8d45f94c0e5771dc364cf6a5731d9d3b101da2
+  UMengUShare: 7a0ab762ccd445ccfcf11bde8e7f81b29b9f5e1c
+  VTMagic: b49e5f456dbcbfd9a3588ba92417233a105bc193
+  WSProgressHUD: e214ab3dd863115bd69ede25cb3b38e27f78c468
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+
+PODFILE CHECKSUM: 6a2452df3c91c5304530d019d390393cd267c84e
+
+COCOAPODS: 1.2.1

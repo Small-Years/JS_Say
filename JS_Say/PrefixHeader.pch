@@ -1,0 +1,106 @@
+//
+//  PrefixHeader.pch
+//  JS_Say
+//
+//  Created by yangjian on 2017/7/31.
+//  Copyright © 2017年 yangjian. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+
+#define USER_DEFAULT [NSUserDefaults standardUserDefaults]
+
+//导航栏颜色
+#define kNavigationBarBg  RGB(206,8,2) //#ce0802
+
+// 1.判断是否为iOS7
+#define iOS7 ([[UIDevice currentDevice].systemVersion doubleValue] >= 7.0)
+#define ViewController_BackGround [UIColor colorWithRed:243.0/255.0 green:243.0/255.0 blue:243.0/255.0 alpha:1.0]//视图控制器背景颜色
+
+
+
+//友盟：
+#define UMAppKey @"599b82af4544cb3f66000778"
+
+
+#endif /* PrefixHeader_pch */
+
+#import "KeyDefine.h"
+
+#import "UIView+Extension.h"
+
+#import "AFNetworking.h"
+#import "AllMethod.h"
+#import "WSProgressHUD.h"
+
+#import "UITableView+EmptyData.h"
+
+#import "NSDictionary+JSON.h"
+#import "UIImage+resizedImage.h"
+#import "UIButton+YJCustomButton.h"
+#import "UIButton+SSEdgeInsets.h"
+#import "UIImage+headImage.h"
+
+#import "NetWorkManager.h"
+
+#import "Masonry.h"
+
+#import <SDWebImage/UIImageView+WebCache.h>
+
+#import "MJRefresh.h"
+
+
+
+#import "NSAttributedString_Encapsulation.h"
+
+#import "PYSearch.h"
+
+#import "AppDelegate.h"
+
+
+// Made In China Masonry+
+#import "MASConstraintMaker+Forbearance.h"
+#import "UIView+Forbearance.h"
+#import "NSArray+Sudoku.h"
+
+
+//友盟
+#import "UMMobClick/MobClick.h"
+//push
+#import "UMessage.h"
+#import <UserNotifications/UserNotifications.h>
+//分享
+#import <UMSocialCore/UMSocialCore.h>
+#import <UShareUI/UShareUI.h>
+
+#import "SQCustomButton.h"
+
+#import <AVFoundation/AVFoundation.h>
+
+#import "YQMotionShadowView.h"
+
+
+#import "TFHpple.h" //HTML解析
+
+
+
+//夜间模式：
+#import "ThemeManagement.h"//控制夜间模式工具类
+#import "TBBaseViewController.h"
+#import "TBbaseTableView.h"
+#import "TBbaseTableViewCell.h"
+#import "BaseLabel.h"
+#import "BaseButton.h"
+#import "BaseView.h"
+#import "BaseTableHeaderView.h"
+#import "BaseWebView.h"
+#import "BaseCollectionView.h"
+
+
+#import "XMGPhotoBrowerWebView.h"  //webView中可以浏览所有图片
+#import <AVOSCloud/AVOSCloud.h>
+
+
