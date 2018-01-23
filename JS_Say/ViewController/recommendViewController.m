@@ -144,6 +144,25 @@
 
 -(void)loadSearchData{
     
+//    sdsghjkljhgfghjkgfghjkl;?
+    //更改新的推荐地址获取数据
+//    http://mobile.chinaiiss.com/strategy/v3/news/get_newslist?type=index&lasttime=0
+    NSString *newURL = @"http://mobile.chinaiiss.com/strategy/v3/news/get_newslist?type=index&lasttime=0";
+    
+    [NetWorkManager requestWithType:HttpRequestTypeGet withUrlString:newURL withParaments:nil withSuccessBlock:^(NSDictionary *responseObject) {
+        if ([[responseObject objectForKey:@"result"] isEqualToString:@"1"]) {
+            NSDictionary *dict = [responseObject objectForKey:@"data"];
+            NSArray *arr = [dict objectForKey:@"lists"];
+            for (NSDictionary *obj in arr) {
+                [self.hotSearchArray addObject:[obj objectForKey:@"name"]];
+            }
+        }
+    } withFailureBlock:^(NSError *error) {
+        
+    } progress:^(float progress) {
+        
+    }];
+    
     
     return;
     NSString *SURL = [NSString stringWithFormat:@"%@/select/types?pageInvertedIndex=0&pageSize=10&repeatSubmit=56658802&&signature=EFB7A9FA4FBDE75EAEC04F37239D0B48",kMainUrl];
